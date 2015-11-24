@@ -1,0 +1,49 @@
+web:
+    build: ./web
+    links:
+        - redis
+        - db
+        - mongo
+        - solr
+        - gearman
+    volumes:
+        - /LOCAL_PATH_TO/apache2/sites-enabled:/etc/apache2/sites-enabled
+        - /LOCAL_PATH_TO/PROJECT_WEB_DIR:/var/www
+    ports:
+        - "80:80"
+        - "443:443"
+redis:
+    image: redis
+    ports:
+        - "6379:6379"
+
+db:
+    image: percona
+    ports:
+        - "3306:3306"
+    volumes:
+        - /LOCAL_PATH_TO/DIR_WHERE_MYSQL/HAVE_TO_SAVE_DATA:/var/lib/mysql
+    environment:
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_USER=user
+        - MYSQL_PASSWORD=userpass
+        - MYSQL_DATABASE=YOUR_DB_NAME
+
+mongo:
+    image: mongo
+    volumes:
+        - /LOCAL_PATH_TO/DATA/mongodb:/var/lib/mongodb
+    ports:
+        - "27017:27017"
+    command: --smallfiles --rest --auth
+
+solr:
+    image: tehes/solr-3.6
+    ports:
+        - "8080:8080"
+
+gearman:
+    image: kendu/gearman
+    ports:
+        - "4730:4730"
+
