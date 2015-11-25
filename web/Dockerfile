@@ -1,4 +1,5 @@
 FROM ubuntu:14.04
+# VOLUME ["/var/www"]
 
 RUN apt-get update && \
     apt-get install -y \
@@ -30,6 +31,8 @@ RUN apt-get -y install gcc libpcre3-dev php5-phalcon
 
 RUN php5enmod mcrypt
 RUN php5enmod phalcon
+
+RUN mkdir -p /mnt/www/regiondo
 
 RUN rm -rf /etc/apache2/sites-enabled/*
 RUN mkdir /etc/apache2/ssl

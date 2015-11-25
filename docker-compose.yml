@@ -7,8 +7,8 @@ web:
         - solr
         - gearman
     volumes:
-        - /LOCAL_PATH_TO/apache2/sites-enabled:/etc/apache2/sites-enabled
-        - /LOCAL_PATH_TO/PROJECT_WEB_DIR:/var/www
+        - /mnt/data/apache2/sites-enabled:/etc/apache2/sites-enabled
+        - /mnt/www/regiondo:/mnt/www/regiondo
     ports:
         - "80:80"
         - "443:443"
@@ -22,21 +22,19 @@ db:
     ports:
         - "3306:3306"
     volumes:
-        - /LOCAL_PATH_TO/DIR_WHERE_MYSQL/HAVE_TO_SAVE_DATA:/var/lib/mysql
+        - /mnt/data/mysql:/var/lib/mysql
     environment:
         - MYSQL_ROOT_PASSWORD=root
         - MYSQL_USER=user
         - MYSQL_PASSWORD=userpass
-        - MYSQL_DATABASE=YOUR_DB_NAME
+        - MYSQL_DATABASE=regiondo
 
 mongo:
-    image: mongo
+    build: ./mongo
     volumes:
-        - /LOCAL_PATH_TO/DATA/mongodb:/var/lib/mongodb
+        - /mnt/data/mongodb:/data/db
     ports:
         - "27017:27017"
-    command: --smallfiles --rest --auth
-
 solr:
     image: tehes/solr-3.6
     ports:
