@@ -50,4 +50,4 @@ EXPOSE 80
 EXPOSE 443
 
 CMD ["/usr/local/bin/run"]
-
+WORKDIR /mnt/www/regiondo
