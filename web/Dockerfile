@@ -21,9 +21,17 @@ RUN apt-get update && \
       php5-mongo \
       php5-intl \
       php5-gearman \
-      php5-xdebug
+      php5-xdebug \
+      mysql-client \
+      graphviz \
+      libgv-php5
+
 
 RUN pear install Net_GeoIP
+RUN pecl install -f xhprof-beta
+RUN echo "extension=xhprof.so" > /etc/php5/mods-available/xhprof.ini
+RUN php5enmod xhprof
+
 RUN apt-get -y install software-properties-common
 RUN apt-add-repository -y ppa:phalcon/stable
 RUN apt-get update
@@ -39,6 +47,7 @@ RUN mkdir /etc/apache2/ssl
 COPY ./ssl/* /etc/apache2/ssl/
 COPY xdebug.ini /etc/php5/mods-available/xdebug.ini
 COPY run /usr/local/bin/run
+COPY magerun.phar /usr/local/bin/magerun.phar
 
 RUN chmod +x /usr/local/bin/run
 
