@@ -1,4 +1,5 @@
 #!/bin/bash
+
 set -e
 
 PHP_ERROR_REPORTING=${PHP_ERROR_REPORTING:-"E_ALL & ~E_DEPRECATED & ~E_NOTICE"}
@@ -9,5 +10,14 @@ sed -ri "s/^error_reporting\s*=.*$//g" /etc/php5/cli/php.ini
 echo "error_reporting = $PHP_ERROR_REPORTING" >> /etc/php5/apache2/php.ini
 echo "error_reporting = $PHP_ERROR_REPORTING" >> /etc/php5/cli/php.ini
 
-source /etc/apache2/envvars && exec /usr/sbin/apache2 -DFOREGROUND
+source /etc/apache2/envvars 
+service=apache2
 
+if (( $(ps -ef | grep -v grep | grep $service | wc -l) > 0 ))
+then
+    echo "$service is running!!!"
+    /etc/init.d/$service stop
+fi
+
+sleep 3
+exec /usr/sbin/apache2 -DFOREGROUND

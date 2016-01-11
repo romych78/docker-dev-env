@@ -49,6 +49,10 @@ COPY xdebug.ini /etc/php5/mods-available/xdebug.ini
 COPY run /usr/local/bin/run
 COPY magerun.phar /usr/local/bin/magerun.phar
 
+RUN cd /root/ && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
+RUN cd /root/ && composer require zircote/swagger-php && composer global require zircote/swagger-php
+RUN ln -s /root/vendor/bin/swagger /usr/local/bin/swagger
+
 RUN chmod +x /usr/local/bin/run
 
 RUN a2enmod rewrite
