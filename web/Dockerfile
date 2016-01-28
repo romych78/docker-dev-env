@@ -23,6 +23,7 @@ RUN apt-get update && \
       php5-gearman \
       php5-xdebug \
       mysql-client \
+      mongodb-clients \
       graphviz \
       libgv-php5
 

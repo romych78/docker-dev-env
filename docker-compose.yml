@@ -36,7 +36,10 @@ mongo:
     ports:
         - "27017:27017"
 solr:
-    image: tehes/solr-3.6
+    #image: tehes/solr-3.6
+    build: ./solr
+    volumes:
+        - /mnt/data/solr:/data/db
     ports:
         - "8080:8080"
 

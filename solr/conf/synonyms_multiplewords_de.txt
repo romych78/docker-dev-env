@@ -1,0 +1,303 @@
+Körpermassage,Massage
+Kursus,Lehrgang,Weiterbildung,Kurs,Bildungsmaßnahme,Workshop,Training,Seminar
+Route,Reiseplan,Strecke,Weg,Wegstrecke,Reiseweg,Richtung,Reiseroute,Marschroute
+Ausflug,kurze Reise,Tour,Spritzfahrt,Spritztour
+Training,Schulung,Weiterbildung,Fortbildung
+Tutorium,Probe,Übung,Training
+Yoga,Joga
+Entspannung,Lockerung,Meditation
+Behandlung,Therapie,Heilverfahren,medizinische Versorgung
+Druck,Aufregung,Nervosität,Belastung,Hektik,Stress
+Erleben,Erlebnis,Erfahrung
+Fabel,Sage,Geschichte,Märchen,Saga
+Vergangenheit,Historie,Geschichte
+Arbeitstagung,Arbeitskreis,Workshop
+Unterrichtung,Ausbildung,Unterricht,Belehrung,Lektion,Anleitung
+Sportart,Sport,Leibesertüchtigung,Leibesübungen,Körperertüchtigung,Körpererziehung
+Leidenschaftlichkeit,Herzblut,Passion,Eifer,Tatkraft,Heftigkeit,EnergieLeidenschaft,Dynamik
+Energie,Produktivität,Diensteifer,Tatkraft,Arbeitseifer,Tatwille,Schaffensdrang,Tüchtigkeit
+innere Kraft,Dynamik,Energie,Stärke
+Wohlbefinden,Wellness
+Trainer,Coach
+Land,Ecke,Landstrich,Gegend,Landschaft
+Abenteuer,Ereignis,Spannung
+Team,Gruppe,Kollektiv,Einsatzgruppe
+Technik,Technologie
+Gotcha,Paintball
+Party,Fest,Feier,Festakt,Fete,Feierlichkeit
+Praxis,Übung,Erfahrung
+Heißluftbad,Schwitzstube,finnisches Bad,Sauna
+Rebe,Wein,Weinstock,Rebstock
+Flugreise,Flug
+speisen,verschmausen
+Esswaren,Lebensmittel,Nahrung,Essen,Nahrungsmittel,Mahl,Mahlzeit,Gericht,Speise
+Konsultation,Besprechung,Beratung,Consulting
+Unterstützung,Mentoring,Supervision,Beratung
+entdecken,erspähen
+Golf,Golfsport
+Trödelmarkt,Flohmarkt
+Thailänder,Thai
+Fahrt,Studienfahrt,Exkursion,Lehrausflug,Expedition,Ausflug,Lehrfahrt,Reise
+Poolbillard,Pool
+Notwehr,Selbstverteidigung
+Kampfsport,Kampfkunst
+Adrenalin,Epinephrin,Suprarenin
+Instrument,Musikinstrument
+Urlaub,Ferien
+Schmuck,Geschmeide,Juwelierwaren,Preziosen,Pretiosen,
+Flugwesen,Luftfahrt,Fliegerei,Aeronautik,Aviatik,Fliegen
+schweben,gleiten,fliegen,segeln
+Kanu,Paddelboot
+Fitness-Center,Muckibude,Fitnesscenter,Fitnessstudio
+Stehbildkamera,Fotoapparat,Kamera,fotografischer Apparat,Knipse,Fotokamera
+Camcorder,Videokamera,Kamera
+schmoren,garen,kochen,dämpfen,dünsten
+Bierbrauerei,Biererzeuger,Bierhersteller,Brauerei,Brauhaus
+Schaumwein,Puffbrause,Schampus,Champagner,Prickelbrause,Prickelwasser,Sekt
+Boot,Schiff,Schaluppe,Kutter
+Freizeitbeschäftigung,Freizeitaktivität,Steckenpferd,Hobby
+Wirtshaus,Gaststätte,Lokal,Gasthaus,Gasthof,Speisegaststätte,Wirtschaft,Gastwirtschaft,Restaurant,Speisewirtschaft
+besteigen,klettern,kraxeln,steigen,erklettern,erklimmen
+Klettern,Bergsteigen,Bergsteigerei
+Kulturkreis,Hochkultur,Zivilisation,Kultur
+Photographie,Fotografie
+Piano,Klavier,Klimperkasten
+Zoologischer Garten,Tiergarten,Zoo,Tierpark
+Gutschein,Coupon,Kupon
+Gutschein,Voucher,Wertschein,Wertmarke
+Gaudi,Vergnügen,Wohlgefallen,Amüsement,Belustigung,Fez,Entzücken,Genuss,Spass,Erheiterung,Begeisterung,Faszination,Lust,Freude,Spaß,Pläsier,Bock
+Leckerbissen,Hochgenuss,Gaumenfreude,Spezialität,Delikatesse,Gaumenschmaus,Schmankerl,Gustostückerl,Gaumenkitzel,Genuss
+Zufriedenheit,Beglückung,Pläsier,Befriedigung,Zufriedenstellung,Genuss,Genugtuung,Erfüllung,Satisfaktion
+Jazz,Jazzmusik
+Flieger,Luftfahrzeug,Aeroplan,Flugmaschine,Maschine,Flugzeug
+Kakao,Schoko,Schokolade
+Eheschließung,Heirat,Vermählung,eheliche Verbindung,Trauzeremonie,Hochzeit,Verehelichung,Liebesheirat,Verheiratung,Ja-Wort,Jawort,Bund fürs Leben,Trauungszeremonie,Verpartnerung,Trauung
+Sprache,mündliches Kommunikationsmittel,Verständigungsmittel,verbales Kommunikationsmittel,schriftliches Kommunikationsmittel
+Sprache,Sprechvermögen,Ausdrucksform
+Kastell,Festung,Burg
+Organisator,Veranstalter
+Basiskenntnisse,Grundlagenwissen,Grundkenntnisse,Basiswissen,Grundwissen
+Rennpiste,Rennbahn,Rennstrecke,Parcours,Piste
+Aufnahme,Empfang,Eingang,Rezeption
+Verzehr,Ingestion,Aufnahme
+Akzeptanz,Akzeptierung,Aufnahme,Annahme
+Einweihung,Initiation,Aufnahme
+Mitschnitt,Aufnahme,Aufzeichnung
+Schneedecke,weiße Pracht,Schnee
+Schwimmbad,Bad,Badeanstalt
+Sommerbad,Schwimmbad,Freibad
+Glücksspieler,Spieler,Gamer,Zocker
+Nebelbad,Dampfbad
+Degustation,Verkostung
+Selbstüberzeugung,Selbstwertgefühl,Selbstsicherheit,Selbstkonzept,Selbstwert,Ego,Eigenwert,Sendungsbewusstsein,Selbstvertrauen,Selbstbewusstsein
+Theater,Schauspielhaus
+Vollendung eines Lebensjahres,Purzeltag,Wiegenfest,Geburtstag,Ehrentag
+Paragleiter,Gleitsegel,Gleitschirm
+Teamgeist,Gruppengeist
+Bahn,Lok,Zug,Lokomotive,Eisenbahn,Triebfahrzeug
+Schienenstrang,Spur,Gleis,Trasse,Bahn,Fahrbahn,Fahrweg,Schiene,Trassee
+Sonderlandeplatz,Verkehrslandeplatz,Airport,Flughafen,Flugplatz,Luftverkehrszentrum
+kutschieren,pendeln,gurken,fahren,gondeln,juckeln,verkehren
+Pralinen,Konfekt
+Drumset,Perkussion,Schlagzeug,Schlaginstrument
+Hirsch,Fahrrad,Radl,Bike,Drahtesel,Velo,Zweirad,Rad
+Zwiegespräch,Konversation,Austausch,Diskussion,Unterredung,Unterhaltung,Zwiesprache,Wortwechsel,Aussprache,Gedankenaustausch,Dialog,Gespräch
+Vergnügung,Unterhaltung,Vergnügen,Amüsement,Entertainment,Lustbarkeit,Belustigung,Darbietung,Erheiterung,Kurzweil
+Überholung,Erhaltung,Instandhaltung,Unterhaltung,Pflege,Unterhalt,Wartung,Wartungsarbeiten
+fest,stramm,straff
+fest,unverzagt,wacker,hold
+fest,eng,dicht,massiv
+konsistent,dicht,fest
+knallhart,fest,standhaft,ehern,knüppelhart,hart
+fest,steif,verkrampft,starr,verspannt,
+Helikopter,Hubschrauber,Heli,Drehflügelflugzeug
+Grundstein,Fundament,Grundlage,Unterbau
+Ausgangsebene,Basis,Grundlage,Ausgangspunkt
+Disse,Diskothek,Tanzschuppen,Zappelschuppen,Disko,Discothek,Disco,Zappelbude,Tanzlokal
+Dienstleistung,Dienst,Service
+funktionieren,arbeiten
+schinden,rödeln,schuften,betätigen,verdingen,schaffen,abrackern,arbeiten,wirken,buckeln,ackern,tätig sein
+arbeiten,schaffen,(kunstgerecht) machen,anfertigen,herstellen
+Übungsleiter,Lehrer,Kursleiter,Coach,Tutor
+Fahrer,Fahrzeugführer,Lenker
+Fahrer,Chauffeur,persönlicher Fahrer
+Takt,Metrum,Rhythmus
+kastilisch,spanisch
+Gyrokopter,Gyrocopter,Autogyro,Tragschrauber
+Klapperkiste,Hobel,Personenkraftwagen,Flunder,Kutsche,Blechbüchse,Waren,Kiste,Schnittenschaukel,Personenwagen,fahrbarer UntersatzAuto,Karosse,AutomobilSchüssel,Schlitten,Karre,Schleuder,Wagen,Flitzer,PKW,Pkw
+Mountain-Bike,Geländerad,Mountainbike
+Musiker,Musikus,Musikschaffender,Musikant
+Nachtmahl,Souper,Abendmahlzeit,Nachtessen,Abendessen,Abendbrot,Brotzeit,Znacht,Vesper
+Interesse,Motivation
+Antrieb,Aufhänger,Reiz,Anreiz,Ansporn,Stimulus,Inzentiv,Motivierung,Anregung,Motivation
+Boxkampf,Boxen,Faustkampf
+hauen,prügeln,schlagen,kloppen,dreschen,boxen
+Anspannung,Nervosität,Kick,Spannung,Nervenkitzel,Gespanntheit,Suspense
+Kuchen,Torte
+Präparat,Mittel,Remedium,Therapeutikum,Medikament,Pharmazeutikum,Arzneimittel,Agens,Arznei,Medizin,Heilmittel
+Gesundheitslehre,Medizin
+Bildermacher,Photograph,Fotograf
+Kart,Gokart
+an Gewicht verlieren,schlank werden,abspecken,abnehmen,entfetten,
+Tanzlehrer,Choreograph,Choreograf
+Kurve,Bogen,gekrümmte Linie,
+Bogen,Blatt,Papier,Papierblatt
+Hair-Stylist,Coiffeur,Frisör,Haarschneider,Friseur,Figaro
+Immunsystem,körpereigenes Abwehrsystem
+Infant,Baby,Kleinstkind,Säugling,Kleinkind,Putzerl,kleiner Erdenbürger,neuer Erdenbürger,Bambino,Neugeborenes
+Oberbau,Architektur,Überbau,Aufbau,Gliederung,Gerüst,Struktur
+Baustil,Architektur,Architekturstil,Baukunst
+Gewoge,Seegang,Dünung,Wellen,Wellenschlag,Wellengang
+schulen,üben,trainieren,einüben
+abrichten,einüben,trainieren,dressieren
+trainieren,sporteln,Sport treiben,körperlich ertüchtigen,ertüchtigen
+Kirchengesang,Gesang,Choral
+Zauberei,Hokuspokus,Magie,Voodoo,Hexerei,Zauberkunde,Zauberkunst
+trällern,jodeln,tönen,mit einstimmen,intonieren,singen,tirilieren
+Ausgangspunkt,Ansatzpunkt
+Referenzpunkt,Koordinatenursprung,Bezugspunkt,Nullpunkt,Ausgangspunkt,Null
+Triebwerk,Motor,Antrieb,Aggregat,Murl,Maschine
+Grill,Rost,Bratrost,
+Kiten,Kiteboarden,Kitesurfen,Lenkdrachensegeln
+Migräne,Kopfschmerzen,Kopfweh,Kopfschmerz,Schädelweh,Brummschädel
+Hallenbad,Schwimmhalle
+Weinbauer,Weinhauer,Weingärtner,Winzer
+grillen,bräteln,grillieren
+Vorraum,Eingangshalle,Foyer,Lounge,Lobby,Vestibül,Empfangshalle,Vorhalle
+Aufenthaltsraum,Wartezimmer,Wartesaal,Lounge
+Badestrand,Strand
+Küste,Gestade,Ufer,Strand
+Frisur,Schnitt,Haarschnitt
+Spaziergang,Gang,Bummel
+Haarentfernung,Enthaarung,Depilation
+Krad,Maschine,Kraftrad,Bock,Töff,Ackermoped,heißer Ofen,Feuerstuhl,Motorrad
+Iglu,Schneehütte
+Brotlaib,Wecken,Brot
+Lokaltermin,Besichtigung,Lokalaugenschein
+gaffen,anglotzen,anstarren,angaffen,bestaunen
+Mischgetränk,Mixgetränk,Longdrink,Cocktail
+Sigel,Kürzel,Zeichen,
+Signal,Vorzeichen,Symbol,Zeichen
+Zeichen,Symbol,Merkmal,Markierung
+Zeichen,Mal,Fleck
+Stigma,Merkmal,Kennzeichen,Zeichen
+Zeichen,Wink,Geste
+Zeichen,Mirakel,Wunder
+Schild,Zeichen
+Seelandung,Anlandung,Landung,Landungsunternehmen
+Luftschutzraum,Luftschutzkeller,Schutzraum,Luftschutzbunker,Bunker,Schutzbau
+schwimmen,baden,rinnen
+Erschöpfung,Niedergeschlagenheit,Lassitudo,Abgeschlagenheit,Burnout
+fischen,angeln
+Gaststättengewerbe,Gastronomie
+Akademie,Universität,Uni,Hochschule,Alma Mater
+Bildungsanstalt,Bildungsstätte,Bildungszentrum,Weiterbildungseinrichtung,Lehranstalt,Schule,Akademie,Weiterbildungsinstitut,Bildungsinstitution,Bildungseinrichtung,Schulungszentrum
+Platzerlaubnis,Platzreife
+paddeln,rudern
+Badminton,Federballspiel,Federball
+Falknerei,Beizjagd
+Landschaftsschutzgebiet,Naturpark,Nationalpark
+Tempel,Andachtsgebäude,Gotteshaus,Gebetshaus,Kirche
+Religionsgemeinschaft,Kirche
+Kirche,Glauben,Glaubensrichtung,Weltanschauung,religöse Überzeugung,Sekte,Glaube,Religion
+Schönheitspflege,Kosmetik
+Zauberer,Beschwörer,Hexer,Magier
+Illusionist,Trickkünstler,Magier,Zauberer,Gaukler,Bühnenmagier
+Schlagzeug spielen,trommeln,Pauke spielen,die Trommel schlagen,pauken
+Cellulitis,Zellulitis,Cellulite,Orangenhaut
+Fernsehen,Television,TV
+Fernsehen gucken,in die Röhre gucken,fernsehen,in die Röhre schauen
+Limousine,Limo
+Saxofon,Saxophon
+schießen,fotografieren,ein Foto schießen,knipsen,einfangen,ein Foto machen,ablichten
+abknipsen,ablichten,fotografieren,abfotografieren
+abfotografieren,einfangen,fotografieren,ablichten,(auf den) Auslöser drücken,knipsen,auf Zelluloid bannen, Schnappschuss machen,Foto schießen,Aufnahme machen,in den Kasten bekommen,aufnehmen,festhalten,Foto machen,Bild machen,bildlich dokumentieren
+Singspiel,Musical,Musiktheaterstück
+Apero,Appetitanreger,Aperitif,Apéro,Kleinigkeit,Häppchen
+Unterrichtsstunde,Lehrstunde,Schulstunde
+Bootsfahrt,Bootstour
+Kinderspielplatz,Spielplatz
+spielen,Musik machen,musizieren
+Zweirumpfboot,Doppelrumpfboot,Katamaran
+golfen,Golf spielen
+Ereignis,Geschehen,Vorkommnis,Vorfall,Begebenheit,Zwischenfall,Geschehnis,Vorgang
+laufen,wandern,bergwandern,trecken
+Verfolgung,Kesseltreiben,Hatz,Gjaid,Hetze,Jagd,Hetzjagd,Verfolgungsjagd
+Jagd,Jagen
+Ring,Windung,Kringel
+Kreis,Ring
+Ring,Reif
+Verleih,Vermietung
+Hof,Bauerngut,Ranch,Bauernhof
+Gutshof,Bauernhof,Landgut
+Jacht,Yacht
+Gleitschirmfliegen,Paragleiten
+Versicherung,Versicherer,Assekuranz,Versicherungsgesellschaft
+Versprechen,Beteuerung,Versicherung,Zusicherung
+Bestätigung,Versicherung,Rückmeldung,Quittierung,Quittung,Bekräftigung,Zuspruch,Befürwortung,Nachweis,Zusage,Zusicherung
+Spaßpark,Vergnügungspark,Freizeitpark
+Segelboot,Segler
+31-Oct,Abend vor Allerheiligen,Halloween
+Kegelspiel,Kegeln
+Schifffahrt,Seefahrt,Wasserverkehr
+Kralle,Nagel,Fingernagel,
+Stahlstift,Drahtstift,Nagel,Bolzen,Stift
+Haik,Schnitzeljagd
+Weihnachtsfest,Weihnachten,Fest der Liebe,Weihnacht
+Gleitsegelfliegen,Paragliding,Gleitsegeln
+Sonnenstudio,Sonnenbank,Solarium
+Weinanbau,Weinbau
+Küche,Kochkunst
+Surfen,Wellenreiten
+Therapeut der Naturheilkunde,Heilpraktiker
+Wiesn,Oktoberfest
+Rutsche,Rinne,Rutschbahn
+Barmann,Bartender,Schankkellner,Barkeeper
+Nailstudio,Nagelstudio
+Jet-Boot,Wassermotorrad,Jetski,Jet-Ski,Jetboot
+Fasching,Fasnacht,Karneval,Fastnacht,fünfte Jahreszeit
+Peckerl,Tatauierung,Tätowierung,Tattoo
+Spielbank,Spielsaal,Spielsalon,Kasino,Casino,Spielcasino
+Schulrestaurant,Kantine,Speisesaal,Cafeteria,Refektorium,Mensa,Betriebsrestaurant,Casino,Cafete,
+Abendrot,Sonnenuntergang,Abendröte,Abenddämmerung,Zwielicht
+verbiegen,schauspielern,vorgeben,so tun als ob,verstellen
+mimen,schauspielern,imitieren,personifizieren,verkörpern,ausgeben,darstellen
+Segelyacht,Segeljacht
+Bergwandern,Trekking
+Unterzuckerung,Hunger,Heißhunger,Kohldampf,Hungerast,Hungergefühl,Schmacht,Jieper,Fressattacke,Appetit,Fressanfall,Hungeranfall
+Familienfirma,Familienbetrieb,Familienunternehmen,
+Weltkrieg,Weltenbrand
+Krimi,Kriminalroman
+Christkindlmarkt,Adventmarkt,Weihnachtsmarkt,Adventsmarkt
+Gewölbe,Grotte
+Museumsdorf,Freilichtmuseum,Freiluftmuseum,Freilandmuseum
+Zeltplatz,Campingplatz
+Brunch,Gabelfrühstück
+Hbf,Hauptbahnhof,Zentralstation,Zentralbahnhof
+Wortedrechsler,Schreiber,Autor,Skribent,Schriftsteller,Schreiberling
+bergiges Land,gebirgiges Land,bergreiches Land,Bergland,Bergwelt
+Ritter,Samurai,Edelmann,Lehensmann,Angehöriger des Ritterordens
+Gebein,Knochen,Bein
+Kunstflug,Aerobatik
+schöne Augen machen,flirten,anmachen,anbaggern,kokettieren,liebeln
+Satellit,künstlicher Trabant,Trabant
+Trabbi,Trabi,Trabant
+Satellit,Mond,Trabant,Begleiter
+Sprudelbad,Whirlpool,Jacuzzi
+Sohle,Talsohle
+Schuhsohle,Sohle,Laufsohle
+Festung,Fortifikation,Wehranlage,Fort,Bastion,Feste,Befestigung,Bollwerk,Wehr
+räsonieren,mitteilen,labern,quasseln,schwätzen,nennen,(sich) unterhalten,reden,sagen,plappern,texten,sprechen
+Thermalquelle,Therme
+Pflanzenwelt,Pflanzenreich,Pflanzenbewuchs,Flora,Vegetation,Pflanzenwuchs
+Nudeln,Teigwaren,Pasta,
+Finito,Zapfenstreich,Arbeitsende,Feierabend
+Irrgarten,Labyrinth
+Harnisch,Schutzkleidung,Rüstung,Panzer
+Tank,Panzer,Panzerwagen,
+Segler,Segelflieger,Segelflugzeug
+Kreidetafel,Wandtafel,Tafel
+Tisch,Tafel
+Hiphop,Hip-Hop
+Basketball,Korbball
+Heilgymnastik,Physiotherapie,Krankengymnastik
