@@ -18,13 +18,16 @@ RUN apt-get update && \
       php5-curl \
       php5-json \
       php5-redis \
-      php5-mongo \
       php5-intl \
       php5-gearman \
       php5-xdebug \
       mysql-client \
       mongodb-clients \
       graphviz \
+      php5-imap \
+      php-pear \
+      make \
+      gearman-tools \
       libgv-php5
 
 
@@ -50,12 +53,21 @@ COPY xdebug.ini /etc/php5/mods-available/xdebug.ini
 COPY run /usr/local/bin/run
 COPY magerun.phar /usr/local/bin/magerun.phar
 
+RUN pecl install mongo
+RUN echo "extension=mongo.so" > /etc/php5/mods-available/mongo.ini
+RUN php5enmod mongo
+
+RUN pecl install mailparse-2.1.6
+RUN echo "extension=mailparse.so" > /etc/php5/mods-available/mailparse.ini
+RUN php5enmod mailparse
+
 RUN cd /root/ && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 RUN cd /root/ && composer require zircote/swagger-php && composer global require zircote/swagger-php
 RUN ln -s /root/vendor/bin/swagger /usr/local/bin/swagger
 
 RUN chmod +x /usr/local/bin/run
 
+RUN php5enmod imap
 RUN a2enmod rewrite
 RUN a2enmod headers
 RUN a2enmod ssl
