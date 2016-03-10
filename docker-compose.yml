@@ -6,6 +6,9 @@ web:
         - mongo
         - solr
         - gearman
+        - mailcatcher:smtp
+    environment:
+        - SMTP_HOST=smtp
     volumes:
         - /mnt/data/apache2/sites-enabled:/etc/apache2/sites-enabled
         - /mnt/www/regiondo:/mnt/www/regiondo
@@ -48,3 +51,8 @@ gearman:
     ports:
         - "4730:4730"
 
+mailcatcher:
+    build: ./mailcatcher
+    ports:
+        - "1080:1080"
+        - "1025:25"

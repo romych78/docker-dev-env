@@ -28,7 +28,8 @@ RUN apt-get update && \
       php-pear \
       make \
       gearman-tools \
-      libgv-php5
+      libgv-php5 \
+      ssmtp
 
 
 RUN pear install Net_GeoIP
