@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 # VOLUME ["/var/www"]
 
-RUN apt-get update && \
+RUN apt-get update &&  \
     apt-get install -y \
       vim \
       apache2 \
@@ -29,7 +29,10 @@ RUN apt-get update && \
       make \
       gearman-tools \
       libgv-php5 \
-      ssmtp
+      ssmtp \
+      unzip \
+      wget \
+      curl
 
 
 RUN pear install Net_GeoIP
@@ -72,6 +75,18 @@ RUN php5enmod imap
 RUN a2enmod rewrite
 RUN a2enmod headers
 RUN a2enmod ssl
+
+RUN mkdir -p /root/libxl/src
+RUN cd /root/libxl/src && \
+    wget http://libxl.com/download/libxl-lin-3.6.5.tar.gz && \
+    tar xzf libxl-lin-3.6.5.tar.gz && cd libxl-3.6.5.0 && \
+    ln -s include_c include && cd .. && \
+    wget https://github.com/iliaal/php_excel/archive/master.zip && unzip master.zip
+RUN cd /root/libxl/src/php_excel-master/ && phpize
+RUN cd /root/libxl/src/php_excel-master/ && ./configure --with-excel --with-libxl-incdir=../libxl-3.6.5.0/include_c --with-libxl-libdir=../libxl-3.6.5.0/lib64
+RUN cd /root/libxl/src/php_excel-master/ && make && make install
+RUN echo "extension=excel.so" > /etc/php5/mods-available/excel.ini && php5enmod excel
+
 
 EXPOSE 80
 EXPOSE 443
