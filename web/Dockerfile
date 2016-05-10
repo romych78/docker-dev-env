@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:15.10
 # VOLUME ["/var/www"]
 
 RUN apt-get update &&  \
