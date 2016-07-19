@@ -29,6 +29,8 @@ RUN apt-get update &&  \
       make \
       gearman-tools \
       libgv-php5 \
+      libxml2 \
+      libxml2-dev \
       ssmtp \
       unzip \
       wget \
@@ -83,7 +85,8 @@ RUN cd /root/libxl/src && \
     ln -s include_c include && cd .. && \
     wget https://github.com/iliaal/php_excel/archive/master.zip && unzip master.zip
 RUN cd /root/libxl/src/php_excel-master/ && phpize
-RUN cd /root/libxl/src/php_excel-master/ && ./configure --with-excel --with-libxl-incdir=../libxl-3.6.5.0/include_c --with-libxl-libdir=../libxl-3.6.5.0/lib64
+
+RUN cd /root/libxl/src/php_excel-master/ && ./configure --with-excel --with-libxl-incdir=/root/libxl/src/libxl-3.6.5.0/include_c --with-libxl-libdir=/root/libxl/src/libxl-3.6.5.0/lib64 --with-libxml-dir=/usr/include/libxml2/
 RUN cd /root/libxl/src/php_excel-master/ && make && make install
 RUN echo "extension=excel.so" > /etc/php5/mods-available/excel.ini && php5enmod excel
 

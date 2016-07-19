@@ -1,8 +1,9 @@
-FROM debian:wheezy
+FROM ruby:2.2
 MAINTAINER Johannes Schickling "schickling.j@gmail.com"
 
 ADD install.sh install.sh
-RUN chmod +x install.sh && ./install.sh && rm install.sh
+RUN chmod +x install.sh
+RUN ./install.sh 
 
 # smtp port
 EXPOSE 1025

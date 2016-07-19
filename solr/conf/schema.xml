@@ -1602,6 +1602,7 @@
 
         <!-- System optional fields. -->
         <field name="category_ids"  type="int"  indexed="true" multiValued="true"/>
+        <field name="visible_in_partner_shop"  type="int"  indexed="true" multiValued="true"/>
         <!-- Creates a "timestamp" field using a default value of "NOW" to indicate when each document was indexed. -->
         <field name="timestamp"     type="date" indexed="true" multiValued="false" default="NOW"/>
 
@@ -1627,7 +1628,7 @@
         <field name="region_txt" type="string" indexed="true" default=" "/>
         <field name="holiday_region_txt" type="string" indexed="true" default=" "/>
         <field name="regiondo_score" type="int" indexed="true" default="0"/>
-        <field name="default_radius" type="float" indexed="true" default=""/>
+        <field name="default_radius" type="float" indexed="true"/>
 
         <field name="calculated_product_count" type="int" indexed="true" default="0"/>
         <field name="entity_url" type="string" indexed="false" default=""/>
