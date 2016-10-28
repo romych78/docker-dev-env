@@ -13,6 +13,8 @@ echo "error_reporting = $PHP_ERROR_REPORTING" >> /etc/php5/cli/php.ini
 sed -ri "s/^mailhub\s*=.*$/mailhub=smtp:1025/g" /etc/ssmtp/ssmtp.conf
 echo "sendmail_path = /usr/sbin/ssmtp -t" >> /etc/php5/apache2/php.ini
 echo "sendmail_path = /usr/sbin/ssmtp -t" >> /etc/php5/cli/php.ini
+echo "max_input_vars = 4000" >> /etc/php5/cli/php.ini
+
 
 source /etc/apache2/envvars 
 service=apache2

@@ -23,8 +23,8 @@ RUN set -ex \
 		apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys "$key"; \
 	done
 
-ENV MONGO_MAJOR testing
-ENV MONGO_VERSION 3.2.0~rc3
+ENV MONGO_MAJOR 3.2
+ENV MONGO_VERSION 3.2.10
 
 ENV AUTH no
 ENV STORAGE_ENGINE wiredTiger
