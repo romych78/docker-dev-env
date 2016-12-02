@@ -1635,6 +1635,7 @@
         <field name="entity_type" type="string" default="product"/>
         <field name="entity_name" type="string" indexed="true" default=""/>
         <field name="entity_description" type="string" indexed="false" default="20"/>
+        <field name="ticket_owner_id" type="int" indexed="true" default="0"/>
 
         <!--
             Dynamic fields definitions. If a field name is not found, dynamicFields will be used if the name matches any
