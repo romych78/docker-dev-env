@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -e
+
+PHP_ERROR_REPORTING=${PHP_ERROR_REPORTING:-"E_ALL & ~E_DEPRECATED & ~E_NOTICE"}
+sed -ri 's/^display_errors\s*=\s*Off/display_errors = On/g' /etc/php/7.0/apache2/php.ini
+sed -ri 's/^display_errors\s*=\s*Off/display_errors = On/g' /etc/php/7.0/cli/php.ini
+sed -ri "s/^error_reporting\s*=.*$//g" /etc/php/7.0/apache2/php.ini
+sed -ri "s/^error_reporting\s*=.*$//g" /etc/php/7.0/cli/php.ini
+echo "error_reporting = $PHP_ERROR_REPORTING" >> /etc/php/7.0/apache2/php.ini
+echo "error_reporting = $PHP_ERROR_REPORTING" >> /etc/php/7.0/cli/php.ini
+
+sed -ri "s/^mailhub\s*=.*$/mailhub=smtp:1025/g" /etc/ssmtp/ssmtp.conf
+echo "sendmail_path = /usr/sbin/ssmtp -t" >> /etc/php/7.0/apache2/php.ini
+echo "sendmail_path = /usr/sbin/ssmtp -t" >> /etc/php/7.0/cli/php.ini
+echo "max_input_vars = 4000" >> /etc/php/7.0/cli/php.ini
+
+
+source /etc/apache2/envvars 
+service=apache2
+
+if (( $(ps -ef | grep -v grep | grep $service | wc -l) > 0 ))
+then
+    echo "$service is running!!!"
+    /etc/init.d/$service stop
+fi
+
+sleep 3
+exec /usr/sbin/apache2 -DFOREGROUND
